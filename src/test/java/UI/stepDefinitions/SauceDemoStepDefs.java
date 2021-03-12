@@ -52,13 +52,6 @@ public class SauceDemoStepDefs {
         Assert.assertEquals(login.itemsInTheCard.get(0).getText(),firstActualItemInCard);
         Assert.assertEquals(login.itemsInTheCard.get(1).getText(),secondActualItemInCard);
 
-//        for (int i = 0; i < 2; i++) {
-//            if (login.itemsInTheCard.get(i).isDisplayed()){
-//                System.out.println(login.itemsInTheCard.get(i).getText()+ " : is added to cart");
-//            }else{
-//                System.out.println("Items are not added to cart");
-//            }
-//        }
     }
     @Then("User remove an items and then continue shopping")
     public void user_remove_an_items_and_then_continue_shopping() {
