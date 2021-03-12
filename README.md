@@ -9,6 +9,7 @@ UI                    # Login class where all the elements are stored
                       # StepDefinitions class show how the steps are implemented
 Utils                 # Driver class Where the driver initialized 
 Payloads              # Where  datas are stored 
+pom.xml               # Where all the dependencies are located 
 
 
 
